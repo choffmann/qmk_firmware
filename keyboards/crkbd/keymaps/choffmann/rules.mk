@@ -1,11 +1,8 @@
-# markstos: enable media keys
+MOUSEKEY_ENABLE = no
 EXTRAKEY_ENABLE = yes
-
-# markstos: smaller file size, little down-side
 LTO_ENABLE = yes
 
+VIA_ENABLE = yes
 COMBO_ENABLE = yes
 
-# This is for RGB *underglow*
-# https://github.com/qmk/qmk_firmware/blob/master/docs/feature_rgblight.md
-rgblight_enable = no
+RGBLIGHT_ENABLE = yes
